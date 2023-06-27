@@ -5,6 +5,8 @@ import Home from './Home';
 import Placeholder from './Components/Placeholder';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Contact from './Components/Contact';
+import Resume from './Components/Resume';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,6 +17,8 @@ root.render(
       <Routes>
           <Route index element={<Home />} />
           <Route path='/Placeholder' element={<Placeholder />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/Resume' element={<Resume />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
