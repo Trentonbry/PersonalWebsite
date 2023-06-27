@@ -1,6 +1,8 @@
 import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
+
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +14,9 @@ function Navbar() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link to="/">
-                    {/* <img
-                    className="h-8 w-8"
-                    src="TB_logo.png"
-                    alt="Workflow"
-                    /> */}
                     <span className="font-semibold text-xl tracking-tight text-white">Trenton Bryant</span>
                  </Link>
+
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
@@ -131,7 +129,6 @@ function Navbar() {
       </nav>
     </div>
     );
-
 }
 
 export default Navbar;
