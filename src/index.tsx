@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Home';
+import Home from './Home';
+import Placeholder from './Components/Placeholder';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
@@ -12,7 +13,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route index element={<App />}/>
+          <Route index element={<Home />} />
+          <Route path='/Placeholder' element={<Placeholder />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

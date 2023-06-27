@@ -6,6 +6,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
+      <Navbar/>
       <header className="App-header">
         <p 
         className='Title absolute inset-x-10 top-0'
