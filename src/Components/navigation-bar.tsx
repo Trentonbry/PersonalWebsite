@@ -43,6 +43,9 @@ function Navbar() {
                   <a href="https://github.com/Trentonbry"  target='_blank' rel="noopener noreferrer" className=''>
                     <img src={"githublogo.png"} className='w-10 h-10'></img>
                   </a>
+                  <a href="https://www.linkedin.com/in/trenton-m-bryant-csce/"  target='_blank' rel="noopener noreferrer" className=''>
+                    <img src={"linkedinlogo.png"} className='w-11 h-11'></img>
+                  </a>
                 </div>
                 
                   
