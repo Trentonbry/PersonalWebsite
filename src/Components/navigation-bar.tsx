@@ -19,7 +19,7 @@ function Navbar() {
 
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <div className="ml-10 flex flex-row items-center space-x-4">
                   <a
                     href="/AboutMe"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -28,7 +28,7 @@ function Navbar() {
                   </a>
 
                   <a
-                    href="/Resume"
+                    href="/Projects"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Projects
@@ -40,7 +40,13 @@ function Navbar() {
                   >
                     Contact
                   </a>
+                  <a href="https://github.com/Trentonbry"  target='_blank' rel="noopener noreferrer" className=''>
+                    <img src={"githublogo.png"} className='w-10 h-10'></img>
+                  </a>
                 </div>
+                
+                  
+                
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
