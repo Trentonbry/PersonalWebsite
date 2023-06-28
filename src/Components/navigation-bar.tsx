@@ -112,24 +112,30 @@ function Navbar() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="/PlaceHolder"
+                  href="/AboutMe"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  PlaceHolder
+                  About Me
                 </a>
 
                 <a
-                  href="/Resume"
+                  href="/Projects"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Resume
+                  Projects
                 </a>
 
                 <a
                   href="/Contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Contact
+                  Contact Me
+                </a>
+                <a href="https://github.com/Trentonbry"  target='_blank' rel="noopener noreferrer" className=''>
+                  <img src={"githublogo.png"} className='w-10 h-10'></img>
+                </a>
+                <a href="https://www.linkedin.com/in/trenton-m-bryant-csce/"  target='_blank' rel="noopener noreferrer" className=''>
+                  <img src={"linkedinlogo.png"} className='w-11 h-11'></img>
                 </a>
               </div>
             </div>
