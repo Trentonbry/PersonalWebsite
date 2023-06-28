@@ -6,7 +6,7 @@ import AboutMe from './Components/AboutMe';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Contact from './Components/Contact';
-import Resume from './Components/Resume';
+import Projects from './Components/Projects';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,7 +18,7 @@ root.render(
           <Route index element={<Home />} />
           <Route path='/AboutMe' element={<AboutMe />} />
           <Route path='/Contact' element={<Contact />} />
-          <Route path='/Resume' element={<Resume />} />
+          <Route path='/Projects' element={<Projects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
