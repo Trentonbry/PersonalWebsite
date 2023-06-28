@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './Home';
-import Placeholder from './Components/Placeholder';
+import AboutMe from './Components/AboutMe';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Contact from './Components/Contact';
@@ -16,7 +16,7 @@ root.render(
     <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
-          <Route path='/Placeholder' element={<Placeholder />} />
+          <Route path='/AboutMe' element={<AboutMe />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Resume' element={<Resume />} />
       </Routes>
